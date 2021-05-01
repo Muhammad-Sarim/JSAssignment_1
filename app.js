@@ -282,3 +282,147 @@
 // CHAPTER # 9-11
 
 // Q:1 Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”
+// var city = prompt("Enter your city");
+// if (city == "Karachi") {
+//     alert("Welcome to city of lights")
+// } else {
+//     alert("welcome")
+// }
+
+// Q:2 Write a program to take “gender” as input from user.
+//  If the user is male, give the message: Good Morning Sir. 
+// var gender = prompt("Enter your gender");
+// if (gender == "male"){
+//     alert("Good Morning Sir.")
+// }
+
+// //  If the user is female, give the message: Good Morning Ma’am.
+// if (gender == "female"){
+//     alert("Good Morning Ma'am.");
+// }
+
+// Q:3 Write a program to take input color of road traffic signal from the user & show the message according to this table:
+// var red = prompt("Enter name of traffic lights");
+// if (red == "red,yellow,green"){
+//     document.write("red:Most Stop" , " ", "yellow:Ready To Move" ,"   ", "green:Move now");
+// }
+
+// Q:4 Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+// var remainingFuel = +prompt("Enter remaining fuel in car (in liters)");
+// if (remainingFuel <= 0.25  , " liters"){
+//     alert("Please refill the fuel in your car")
+// } 
+
+// Q:5 Run this script, & check whether alert message would be displayed or not. Record the outputs. 
+//  var a = 6; 
+// if (++a === 7){ 
+// alert("given condition for variable a is true"); 
+// }
+// TRUE//
+
+// var b = 82; 
+// if (b++ === 83){ 
+// alert("given condition for variable b is true"); 
+// }
+// FALSE //
+
+// var c = 12; 
+// if (c++ === 13){ 
+// alert("condition 1 is true"); 
+// }
+// FALSE // 
+
+// if (c === 13){ 
+//     alert("condition 2 is true"); 
+// } 
+// FALSE //
+
+// if (++c < 14){ 
+//     alert("condition 3 is true"); 
+// } 
+// TRUE //
+
+// if(c === 14){ 
+//     alert("condition 4 is true"); 
+// }
+// FALSE //
+
+// var materialCost = 200; 
+// var laborCost = 200; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost);
+// { 
+//     alert("The cost equals"); 
+// }
+// EQUAL //
+
+// if (true){ 
+//     alert("True");  
+// } 
+// TRUE //
+
+// if (false){ 
+//     alert("False"); 
+// }
+// FALSE //
+
+// if(8 < 10){ 
+//     alert("eight is smaller than 10"); 
+// }
+
+// Q:6 Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number. 
+// var secretNumber = +prompt("Enter any number from 1 to 10");
+// a. If user guesses the same number, show “Bingo! Correct answer”.
+// if (secretNumber == 5){
+//     alert("Bingo! Correct answer");
+// }
+
+// b. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.
+// else {
+//     alert("Close enough to the correct answer")
+// }
+
+// Q:7 Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.
+// var check = prompt("Enter any number which can divide by 3 (From 1 to 30)");
+// if (check == 3);{
+//     alert( "the number is divisible by 3.");
+// }
+// if (check == 6);{
+// }
+// if (check == 9);{
+// }
+// if (check == 12);{
+// }
+// if (check == 15);{
+// }
+// if (check == 18);{
+// }
+// if (check == 21);{
+// }
+// if (check == 24);{
+// }
+// if (check == 27);{
+// }
+// if (check == 30);{
+// }
+
+// Q:8 Write a program that checks whether the given input is an even number or an odd number.
+// var check = +prompt("Enter any number (From 1 to 10)");
+// if (check == 2){
+//     alert("it is an even number");
+//  }
+// if (check == 4){
+//     alert("it is an even number");
+// }
+// if (check == 6){
+//     alert("it is an even number");
+// }
+// if (check == 8){
+//     alert("it is an even number");
+// }
+// if (check == 10){
+//     alert("it is an even number");
+// }else {
+//     alert("it is an odd number");
+// }
