@@ -426,3 +426,93 @@
 // }else {
 //     alert("it is an odd number");
 // }
+
+
+
+// Chapter 12-13
+// IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS
+
+// Q:1  Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter.
+// var a = +prompt("Input anything you want to check !");
+// if (typeof a === "number") {
+//     console.log("This is a numeric value")
+// }
+
+// var b = prompt("Input anything you want to check !")
+//  if(typeof b === "string") {
+//     console.log("This is a string data")
+// }else{
+//     console.log("Error")
+// }
+
+
+// Q:2  Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.
+// var a = +prompt("Enter first integer");
+// var b = +prompt("Enter second integer");
+
+// if (a === b) {
+//     console.log("The number you enter are equal");
+// }
+// else if ( a > b) {
+//     console.log(a + " is" + " > " + b)
+// }
+// else{
+//     console.log(a + " is" + " < " + b)
+// }
+
+
+// Q:3  Write a program that takes input a number from user & state whether the number is positive, negative or zero.
+// var a = +prompt("Enter any number !");
+// if (a < 0) {
+//     console.log("The number is negative")
+// }
+// else if (a > 0){
+//     console.log("The number is positive.")
+// }
+// else {
+//     console.log("The number is zero.")
+// }
+
+
+// Q:4  Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise.
+// var a = prompt("Enter any character");
+
+// if (a = "a", "e", "i", "o", "u") {
+//     console.log("True")
+// }else{
+//     console.log("false")
+// }
+
+
+// Q:5  Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise.
+// var correctPassword = ("sarim");
+
+// var ask = prompt("Enter your password..", "password is sarim");
+// if (ask === correctPassword) {
+//     alert("correct")
+// } else {
+//     alert("Incorrect password")
+// }
+
+
+// Q:6  This if/else statement does not work. Try to fix it: 
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day"; 
+//        else greeting = "Good evening";
+// }
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting);
